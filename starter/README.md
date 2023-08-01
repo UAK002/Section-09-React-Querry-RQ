@@ -13,7 +13,7 @@ Open server directory.
 #### Starter
 
 - run "npm install" and "npm run dev"
-- Grocery Bud structure
+- Grocery Bud structure- Task App
 
 #### Explore Setup
 
@@ -188,7 +188,7 @@ const Items = () => {
     return <p style={{ marginTop: '1rem ' }}>{error.message}</p>;
   }
   return (
-    <div className='items'>
+    <div className="items">
       {data.taskList.map((item) => {
         return <SingleItem key={item.id} item={item} />;
       })}
